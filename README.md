@@ -5,7 +5,7 @@ We run two asynchronous algorithms, PIAG and Async-BCD, in a machine with 10 cor
 
 PIAG is implemented in a master-worker framework with 8 workers, and Async-BCD uses a shared-memory setting with 8 workers.
 
-The two algorithms are implemented in a real asynchronous way using the MPI4py framework. The file names are {algorithm}_{stepsize}_{dataset}. We consider 3 datasets (RCV1, MNIST, CIFAR100) for two algorithms. We run PIAG with 3 step-sizes (Adaptive 1, Adaptive2, sun), and Async-BCD with 4 step-sizes (Adaptive 1, Adaptive2, sun, Davis).
+The two algorithms are implemented in a real asynchronous way using the MPI4py framework. The file names are {algorithm}\_{stepsize}\_{dataset}. We consider 3 datasets (RCV1, MNIST, CIFAR100) for two algorithms. We run PIAG with 3 step-sizes (Adaptive 1, Adaptive2, sun), and Async-BCD with 4 step-sizes (Adaptive 1, Adaptive2, sun, Davis).
 
 We log all the delays in 20 different experiment settings.
 
